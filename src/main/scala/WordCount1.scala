@@ -49,3 +49,4 @@ object WordCount1 {
     sc.close()
   }
 }
+// Challenge: implement flatMap

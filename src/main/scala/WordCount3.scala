@@ -54,3 +54,4 @@ object WordCount3 {
     sc.close()
   }
 }
+// Challenge: implement map

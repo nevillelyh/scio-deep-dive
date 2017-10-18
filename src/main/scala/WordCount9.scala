@@ -96,3 +96,4 @@ object WordCount9 {
     sc.close()
   }
 }
+// Challenge: fix KvCoder inference

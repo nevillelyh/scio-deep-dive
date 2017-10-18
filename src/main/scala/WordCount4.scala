@@ -56,3 +56,4 @@ object WordCount4 {
     sc.close()
   }
 }
+// Challenge: implement filter

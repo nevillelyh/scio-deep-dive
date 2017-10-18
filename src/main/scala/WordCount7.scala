@@ -67,3 +67,4 @@ object WordCount7 {
     sc.close()
   }
 }
+// Challenge: replace SerializableCoder with Kryo

@@ -63,3 +63,4 @@ object WordCount6 {
     sc.close()
   }
 }
+// Challenge: ban inefficient SerializableCoder

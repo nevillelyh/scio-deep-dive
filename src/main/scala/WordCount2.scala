@@ -52,3 +52,4 @@ object WordCount2 {
     sc.close()
   }
 }
+// Challenge: fix Coder inference

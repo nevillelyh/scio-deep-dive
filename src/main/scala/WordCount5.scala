@@ -60,3 +60,4 @@ object WordCount5 {
     sc.close()
   }
 }
+// Challenge: implement countByValue

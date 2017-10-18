@@ -122,3 +122,4 @@ object WordCount12 {
     sc.close()
   }
 }
+// Challenge: implement CoGroupByKey
