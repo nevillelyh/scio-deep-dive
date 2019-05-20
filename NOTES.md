@@ -58,6 +58,7 @@
 ## Further Reading
 - [Scala Type Classes](https://www.lyh.me/slides/type-classes.html)
 - [Semigroups](https://www.lyh.me/slides/semigroups.html)
+- [BigDiffy](https://www.lyh.me/slides/bigdiffy.html) - an extreme case of Semigroup
 ## Exercises
 - Implement a more efficient `sumByKey` by using `Semigroup#sumOption` and `org.apache.beam.sdk.transforms.Combine.CombineFn` with accumulator.
 
