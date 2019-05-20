@@ -10,8 +10,8 @@ import scala.collection.JavaConverters._
 object WordCount2 {
 
   class ScioContext(val args: Array[String]) {
-    val options = PipelineOptionsFactory.fromArgs(args: _*)
-    val pipeline = Pipeline.create()
+    val options = PipelineOptionsFactory.fromArgs(args: _*).create()
+    val pipeline = Pipeline.create(options)
     def close(): PipelineResult = pipeline.run()
 
     def parallelize[A](elems: Iterable[A]) = {

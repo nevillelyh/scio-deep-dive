@@ -20,8 +20,8 @@ import scala.reflect.ClassTag
 object WordCount13 {
 
   class ScioContext(val args: Array[String]) {
-    val options = PipelineOptionsFactory.fromArgs(args: _*)
-    val pipeline = Pipeline.create()
+    val options = PipelineOptionsFactory.fromArgs(args: _*).create()
+    val pipeline = Pipeline.create(options)
 
     pipeline.getCoderRegistry.registerCoderForClass(classOf[Int], VarIntCoder.of())
     pipeline.getCoderRegistry.registerCoderForClass(classOf[Long], VarLongCoder.of())
